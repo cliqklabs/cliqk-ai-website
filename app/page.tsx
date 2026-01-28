@@ -367,14 +367,14 @@ export default function Home() {
                 Mark Hernandez
               </h2>
               <p className="text-neutral-400 text-lg mb-4 leading-relaxed">
-                CLIQK is a one-person firm. That person is Mark Hernandez.
+                Mark Hernandez founded CLIQK in 2004 and continues to lead the firm today.
               </p>
               <div className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-neutral-500 mb-6">
                 <span>Stanford Engineering</span>
                 <span>·</span>
-                <span>Ex-Merrill Lynch MD</span>
+                <span>Investor</span>
                 <span>·</span>
-                <span>Ex-JP Morgan</span>
+                <span>Builder</span>
               </div>
               <p className="text-neutral-300 leading-relaxed">
                 The cost of knowledge work is collapsing. AI doesn't replace expertise—it amplifies it. A single practitioner with the right tools and two decades of pattern recognition can deliver what previously required teams.
@@ -391,7 +391,7 @@ export default function Home() {
             Let's Talk
           </h2>
           <p className="text-lg text-neutral-600 mb-10">
-            I rent my brain to a small number of clients who value strategic clarity, analytical rigor, and someone who's been translating technology into business outcomes since before most AI consultants knew what an LLM was.
+            CLIQK works with clients who value strategic clarity, analytical rigor, and someone who's been translating technology into business outcomes since before most AI consultants knew what an LLM was.
           </p>
           <a 
             href="mailto:info@cliqk.com" 
