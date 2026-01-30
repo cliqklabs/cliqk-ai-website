@@ -38,11 +38,11 @@ export default function Home() {
             <a href="#credentials" className="hover:text-neutral-900 transition-colors">Credentials</a>
             <a href="#about" className="hover:text-neutral-900 transition-colors">About</a>
           </div>
-          <a 
-            href="mailto:info@cliqk.com" 
+          <a
+            href="/portal"
             className="bg-neutral-900 text-white px-4 py-2 text-sm font-medium rounded-full hover:bg-neutral-800 transition-colors"
           >
-            Let's Talk
+            Client Portal
           </a>
         </div>
       </nav>
@@ -110,7 +110,7 @@ export default function Home() {
               Three Chapters. One Through-Line.
             </h2>
             <p className="text-lg text-neutral-600">
-              For 20+ years, CLIQK has done one thing: translate emerging technology into outcomes that matter.
+              For 20+ years, CLIQK has done one thing: translate emerging technology into outcomes that matter. These capabilities don't replace each other—they compound.
             </p>
           </div>
 
@@ -121,7 +121,7 @@ export default function Home() {
               <div className="md:pl-8">
                 <div className="flex items-center gap-3 mb-4">
                   <div className="w-2 h-2 rounded-full bg-neutral-900" />
-                  <span className="text-sm font-medium text-neutral-500">2004–2015</span>
+                  <span className="text-sm font-medium text-neutral-500">2004–Present</span>
                 </div>
                 <h3 className="text-xl font-medium mb-3">Smart Home Pioneer</h3>
                 <p className="text-neutral-600 mb-6 leading-relaxed">
@@ -142,7 +142,7 @@ export default function Home() {
               <div className="md:pl-8">
                 <div className="flex items-center gap-3 mb-4">
                   <div className="w-2 h-2 rounded-full bg-neutral-400" />
-                  <span className="text-sm font-medium text-neutral-500">2015–2020</span>
+                  <span className="text-sm font-medium text-neutral-500">2011–2020</span>
                 </div>
                 <h3 className="text-xl font-medium mb-3">Marketing & Experience Design</h3>
                 <p className="text-neutral-600 mb-6 leading-relaxed">
@@ -165,15 +165,15 @@ export default function Home() {
                   <div className="w-2 h-2 rounded-full bg-neutral-900" />
                   <span className="text-sm font-medium text-neutral-500">2020–Present</span>
                 </div>
-                <h3 className="text-xl font-medium mb-3">AI Infrastructure</h3>
+                <h3 className="text-xl font-medium mb-3">AI & Software Development</h3>
                 <p className="text-neutral-600 mb-6 leading-relaxed">
                   Now we architect AI operating systems for organizations navigating the most significant technology shift since the internet. Fractional leadership. Strategic clarity. Operational leverage.
                 </p>
                 <div className="space-y-2 text-sm text-neutral-500">
                   <p>✓ AI strategy & implementation</p>
+                  <p>✓ Software design & development</p>
                   <p>✓ Fractional CSO/COO/CTO</p>
-                  <p>✓ Agent development & automation</p>
-                  <p>✓ Operational transformation</p>
+                  <p>✓ Marketing automation & lead generation</p>
                 </div>
               </div>
             </div>
@@ -328,7 +328,7 @@ export default function Home() {
             >
               <div className="flex items-center gap-3 mb-4">
                 <Sparkles className="w-6 h-6 text-neutral-400 group-hover:text-neutral-600 transition-colors" />
-                <span className="text-sm font-medium text-neutral-500 uppercase tracking-wider">2015–2020</span>
+                <span className="text-sm font-medium text-neutral-500 uppercase tracking-wider">2011–2020</span>
               </div>
               <h3 className="text-xl font-medium mb-3 group-hover:text-neutral-600 transition-colors">Marketing Portfolio</h3>
               <p className="text-neutral-600 mb-4 leading-relaxed">
@@ -416,7 +416,7 @@ export default function Home() {
               <span>Est. 2004</span>
             </div>
             <p className="text-sm text-neutral-400">
-              Technology consulting, marketing services, and systems integration.
+              Technology consulting, software development, marketing services, and systems integration.
             </p>
           </div>
           <div className="flex flex-wrap items-center justify-center md:justify-start gap-6 pt-4 border-t border-neutral-100 text-sm">
