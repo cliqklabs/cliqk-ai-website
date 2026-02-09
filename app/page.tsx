@@ -1,4 +1,4 @@
-import { ArrowRight, Award, Building2, Cpu, Mail, MapPin, Newspaper, Sparkles } from 'lucide-react'
+import { ArrowRight, Award, Brain, Building2, Cpu, Mail, MapPin, Newspaper, Shield, Sparkles, TrendingUp } from 'lucide-react'
 import Image from 'next/image'
 
 const clientLogos = [
@@ -36,6 +36,7 @@ export default function Home() {
             <a href="#evolution" className="hover:text-neutral-900 transition-colors">Evolution</a>
             <a href="#services" className="hover:text-neutral-900 transition-colors">Services</a>
             <a href="#credentials" className="hover:text-neutral-900 transition-colors">Credentials</a>
+            <a href="#lifeos" className="hover:text-neutral-900 transition-colors">LifeOS</a>
             <a href="#about" className="hover:text-neutral-900 transition-colors">About</a>
           </div>
           <a
@@ -284,6 +285,55 @@ export default function Home() {
               </p>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* LifeOS Teaser Section */}
+      <section id="lifeos" className="py-20 md:py-32 px-6 bg-neutral-900 text-white">
+        <div className="max-w-4xl mx-auto text-center">
+          <p className="text-sm font-medium text-neutral-500 uppercase tracking-wider mb-6">
+            Now Building
+          </p>
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-medium tracking-tight mb-6 leading-tight">
+            Before AI can help you,<br />it has to know you.
+          </h2>
+          <p className="text-lg text-neutral-400 max-w-2xl mx-auto mb-16 leading-relaxed">
+            Most AI is generic — trained on the internet, not on your business.
+            LifeOS is a context-first operating system that organizes your information
+            so AI becomes genuinely useful. Local. Secure. Yours.
+          </p>
+
+          <div className="grid md:grid-cols-3 gap-8 mb-16">
+            <div className="border border-neutral-700 rounded-2xl p-8 hover:border-neutral-500 transition-colors text-left">
+              <Brain className="w-8 h-8 mb-6 text-neutral-500" />
+              <h3 className="text-lg font-medium mb-3">Context, Not Tools</h3>
+              <p className="text-neutral-400 leading-relaxed">
+                Tools change every six months. Organized context compounds forever. LifeOS builds the foundation that makes any AI tool actually work.
+              </p>
+            </div>
+            <div className="border border-neutral-700 rounded-2xl p-8 hover:border-neutral-500 transition-colors text-left">
+              <Shield className="w-8 h-8 mb-6 text-neutral-500" />
+              <h3 className="text-lg font-medium mb-3">Security by Default</h3>
+              <p className="text-neutral-400 leading-relaxed">
+                Your data stays local. Every AI action requires human approval. Nothing touches the cloud without your explicit consent.
+              </p>
+            </div>
+            <div className="border border-neutral-700 rounded-2xl p-8 hover:border-neutral-500 transition-colors text-left">
+              <TrendingUp className="w-8 h-8 mb-6 text-neutral-500" />
+              <h3 className="text-lg font-medium mb-3">Compounding Intelligence</h3>
+              <p className="text-neutral-400 leading-relaxed">
+                Every interaction teaches the system. Every approval refines it. Your AI gets sharper the longer you use it — not dumber.
+              </p>
+            </div>
+          </div>
+
+          <a
+            href="mailto:info@cliqk.com?subject=LifeOS%20Inquiry"
+            className="inline-flex items-center gap-2 bg-white text-neutral-900 px-6 py-3 font-medium rounded-full hover:bg-neutral-100 transition-colors"
+          >
+            Interested in early access? Let's talk.
+            <ArrowRight className="w-4 h-4" />
+          </a>
         </div>
       </section>
 
